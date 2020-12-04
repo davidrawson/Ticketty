@@ -72,7 +72,7 @@ export default {
       );
 
       if (!response.ok) {
-        const message = `An error has occured: ${response.status}`;
+        const message = `An error has occurred: ${response.status}`;
         throw new Error(message);
       }
       const data = await response.json();
@@ -86,7 +86,7 @@ export default {
       );
 
       if (!response.ok) {
-        const message = `An error has occured: ${response.status}`;
+        const message = `An error has occurred: ${response.status}`;
         throw new Error(message);
       }
 
