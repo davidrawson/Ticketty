@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Ticketty logo" src="./assets/tickettyLogo.png" />
+    <Ticketty msg="Welcome to Ticketty" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Ticketty from "./components/Ticketty.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Ticketty
   }
-}
+};
 </script>
 
 <style>
